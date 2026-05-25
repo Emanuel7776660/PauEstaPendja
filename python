@@ -1,0 +1,23 @@
+my_set={}
+print(type(my_set))
+my_set={"python","html","js"}
+print(my_set)
+my_set.add("json")
+print(my_set)
+
+my_dict={"a","b"}
+print(my_dict)
+
+numero=0
+while numero<10:
+    numero+=1
+    if numero <=5:
+        print("el numero es menor a 5")
+    print(numero)
+
+num1=float(input("ingresa el numero"))
+num2=float(input("ingresa el numero"))
+num3=float(input("ingresa el numero"))
+print(numero)
+suma_total=num1+num2+num3
+print(f"La suma total es: {suma_total}")
