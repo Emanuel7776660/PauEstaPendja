@@ -1,0 +1,22 @@
+multiplicacion = 0
+contador = 1
+
+while contador == 1:
+
+    numero = int(input("Ingresa el numero: "))
+
+    if numero < 0:
+        print("El numero es negativo")
+    else:
+        print("El numero es positivo")
+
+    for i in range(1, 11):
+        multiplicacion = numero * i
+        print(numero, "x", i, "=", multiplicacion)
+
+    print("Selecciona 1 para repetir el programa")
+    print("Selecciona 2 para salir")
+
+    contador = int(input("Ingresa la opcion: "))
+
+print("Programa finalizado")
